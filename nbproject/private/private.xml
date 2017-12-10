@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/app/presenters/AdminPresenter.php</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/app/model/cats_admin.php</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/www/js/display_cats.js</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/www/js/admin_cats.js</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/app/entities/cat_item.php</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/app/model/cats_manager.php</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/www/js/escapeHtml.js</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/app/model/validate_payload.php</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/app/presenters/HomepagePresenter.php</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/app/presenters/templates/Admin/default.latte</file>
+            <file>file:/C:/Users/col/Documents/NetBeansProjects/lelvels_1/app/entities/DBwrap.php</file>
+        </group>
+    </open-files>
+</project-private>

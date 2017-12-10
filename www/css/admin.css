@@ -1,0 +1,8 @@
+h1, h2{color: blue;}
+div#menu ul li {cursor: pointer;}
+
+li.selected span{background-color: aqua;}
+li.selected * span{background-color: white;}
+div.modal{position: absolute;
+        background-color: #eeeeee;
+        visibility: collapse;}

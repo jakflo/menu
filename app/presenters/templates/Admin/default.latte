@@ -1,0 +1,44 @@
+<link rel="stylesheet" type="text/css" href="/css/admin.css" />
+
+<h1>Vítejte, admine</h1>
+<h2>Menu</h2>
+<div id="menu"></div>
+
+<div id="buttons">
+<button id="add_sibb">Přidat sourozence</button>
+<button id="add_kid">Přidat potomka</button>
+<button id="rename">Přejmenovat</button>
+<button id="delete">Smazat</button>
+</div>
+
+<br /><br />
+
+{control logoutForm}
+
+<br/>
+
+
+<div id="modal_add_or_ren" class="modal">
+    <p>text</p>
+    <form name="modal_add_or_ren_form">
+        <input type="text" name="cat_name" />
+    </form>
+    <button id="modal_add_or_ren_action_button">Action</button>
+    <button id="modal_add_or_ren_cancel_button">Cancel</button>
+</div>
+
+<div id="modal_delete" class="modal">
+    <p>text</p>
+    <form name="modal_delete_form"></form>
+        <button id="modal_delete_yes_button">Ano</button>
+        <button id="modal_delete_no_button">Ne</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    var cats = JSON.parse({$cats});
+    var ids_with_kids = JSON.parse({$cats_with_kids});
+</script>
+<script src="/js/escapeHtml.js"></script>
+<script src="/js/display_cats.js"></script>
+<script src="/js/admin_cats.js"></script>

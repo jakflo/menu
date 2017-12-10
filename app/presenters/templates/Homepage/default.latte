@@ -1,0 +1,14 @@
+<h1>Vítejte</h1>
+<h2>Menu</h2>
+<div id="menu"></div>
+
+<p><b>Přihlásit se:</b></p>
+{control loginForm}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    var cats = JSON.parse({$cats});
+    var ids_with_kids = JSON.parse({$cats_with_kids});
+</script>
+<script src="/js/display_cats.js"></script>
+
